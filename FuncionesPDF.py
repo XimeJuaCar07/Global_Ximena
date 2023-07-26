@@ -1,3 +1,4 @@
+#funciones....
 from reportlab.pdfgen import canvas
 from FuncionQR import *
 ruta="C:/Users/Aula 25/Desktop/Modularidad python/Prueba funciones/"
