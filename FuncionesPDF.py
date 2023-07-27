@@ -1,7 +1,11 @@
 #funciones....
 from reportlab.pdfgen import canvas
 from FuncionQR import *
-ruta="C:/Users/Aula 25/Desktop/Modularidad python/Prueba funciones/"
+import datetime
+import locale
+locale.setlocale(locale.LC_ALL, '')
+fecha_actual = datetime.datetime.now()
+ruta="C:/Users/Aula 25/Desktop/globalX/"
 nombreArchivo=ruta+"reporteGlobal.pdf"
 nombreQR = ruta + "miQR.png"
 
